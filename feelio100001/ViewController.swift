@@ -9,17 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var happyImage: UIImageView!
-
-    @IBOutlet weak var pumpedImage: UIImageView!
-    @IBOutlet weak var romanticImage: UIImageView!
-    @IBOutlet weak var hungryImage: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
 
     
     }

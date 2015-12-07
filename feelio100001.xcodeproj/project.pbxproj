@@ -20,6 +20,7 @@
 		63881AC81C104FBD00E006B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63881AC71C104FBD00E006B1 /* Assets.xcassets */; };
 		63881ACB1C104FBD00E006B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63881AC91C104FBD00E006B1 /* LaunchScreen.storyboard */; };
 		63881ADF1C1072D300E006B1 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63881ADE1C1072D300E006B1 /* secondViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		63881ACA1C104FBD00E006B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63881ACC1C104FBD00E006B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63881ADE1C1072D300E006B1 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70733FF01C15B1740053818D /* parse-library-1 in Frameworks */,
+				70733FEE1C15AE5E0053818D /* libsqlite3.tbd in Frameworks */,
+				70733FEC1C15AE4D0053818D /* libz.tbd in Frameworks */,
+				70733FF71C15B2750053818D /* Bolts.framework in Frameworks */,
+				70733FEA1C15AE3B0053818D /* SystemConfiguration.framework in Frameworks */,
+				70733FE81C15AE310053818D /* StoreKit.framework in Frameworks */,
+				70733FF81C15B2750053818D /* Parse.framework in Frameworks */,
+				70733FE61C15AE230053818D /* Security.framework in Frameworks */,
+				70733FE41C15AE0C0053818D /* QuartzCore.framework in Frameworks */,
+				70733FE21C15ADFA0053818D /* CoreLocation.framework in Frameworks */,
+				70733FE01C15ADEF0053818D /* CoreGraphics.framework in Frameworks */,
+				70733FDE1C15ADE00053818D /* CFNetwork.framework in Frameworks */,
+				70733FDC1C15ADBB0053818D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,20 @@
 		63881AB41C104FBD00E006B1 = {
 			isa = PBXGroup;
 			children = (
+				70733FEF1C15B1740053818D /* parse-library-1 */,
+				70733FED1C15AE5E0053818D /* libsqlite3.tbd */,
+				70733FEB1C15AE4D0053818D /* libz.tbd */,
+				70733FF51C15B2750053818D /* Bolts.framework */,
+				70733FF61C15B2750053818D /* Parse.framework */,
+				70733FE91C15AE3B0053818D /* SystemConfiguration.framework */,
+				70733FE71C15AE310053818D /* StoreKit.framework */,
+				70733FE51C15AE230053818D /* Security.framework */,
+				70733FE31C15AE0C0053818D /* QuartzCore.framework */,
+				70733FE11C15ADFA0053818D /* CoreLocation.framework */,
+				70733FDF1C15ADEF0053818D /* CoreGraphics.framework */,
+				70733FDD1C15ADE00053818D /* CFNetwork.framework */,
+				70733FDB1C15ADBB0053818D /* AudioToolbox.framework */,
+				70733FD91C15AD6F0053818D /* parse-library-1 */,
 				63881ABF1C104FBD00E006B1 /* feelio100001 */,
 				63881ABE1C104FBD00E006B1 /* Products */,
 			);
@@ -156,8 +185,6 @@
 			files = (
 				63617DA11C15BD3600D32D56 /* loggafeelioo.png in Resources */,
 				63881ACB1C104FBD00E006B1 /* LaunchScreen.storyboard in Resources */,
-				63617DA71C15BD5F00D32D56 /* happytext.png in Resources */,
-				63617DAA1C15BD5F00D32D56 /* ragetext.png in Resources */,
 				63881AC81C104FBD00E006B1 /* Assets.xcassets in Resources */,
 				63617DAE1C15CDA900D32D56 /* feeliologgamedslogan.png in Resources */,
 				63881AC61C104FBD00E006B1 /* Main.storyboard in Resources */,
@@ -287,6 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/feelio100001/parse-library-1",
+				);
 				INFOPLIST_FILE = feelio100001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.application.feelio100001;
@@ -298,6 +329,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/feelio100001/parse-library-1",
+				);
 				INFOPLIST_FILE = feelio100001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.application.feelio100001;
