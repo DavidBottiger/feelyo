@@ -20,20 +20,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-                let imageView = happyImage
-                let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:Selector("imageTapped:"))
-                imageView.userInteractionEnabled = true
-                imageView.addGestureRecognizer(tapGestureRecognizer)
-        
 
-        }
     
-        func imageTapped(img: AnyObject)
-        {
-            performSegueWithIdentifier("secondVC", sender: self)
-            print("ITS WORKING!!!")
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

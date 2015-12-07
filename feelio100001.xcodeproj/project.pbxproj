@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63617DA11C15BD3600D32D56 /* loggafeelioo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA01C15BD3600D32D56 /* loggafeelioo.png */; };
+		63617DA71C15BD5F00D32D56 /* happytext.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA21C15BD5F00D32D56 /* happytext.png */; };
+		63617DA81C15BD5F00D32D56 /* peacefultext.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA31C15BD5F00D32D56 /* peacefultext.png */; };
+		63617DA91C15BD5F00D32D56 /* pumpedtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA41C15BD5F00D32D56 /* pumpedtext.png */; };
+		63617DAA1C15BD5F00D32D56 /* ragetext.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA51C15BD5F00D32D56 /* ragetext.png */; };
+		63617DAB1C15BD5F00D32D56 /* romantictext.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DA61C15BD5F00D32D56 /* romantictext.png */; };
+		63617DAE1C15CDA900D32D56 /* feeliologgamedslogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 63617DAD1C15CDA900D32D56 /* feeliologgamedslogan.png */; };
 		63881AC11C104FBD00E006B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63881AC01C104FBD00E006B1 /* AppDelegate.swift */; };
 		63881AC31C104FBD00E006B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63881AC21C104FBD00E006B1 /* ViewController.swift */; };
 		63881AC61C104FBD00E006B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63881AC41C104FBD00E006B1 /* Main.storyboard */; };
 		63881AC81C104FBD00E006B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63881AC71C104FBD00E006B1 /* Assets.xcassets */; };
 		63881ACB1C104FBD00E006B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63881AC91C104FBD00E006B1 /* LaunchScreen.storyboard */; };
-		63881AD61C1056CA00E006B1 /* happybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881AD21C1056CA00E006B1 /* happybutton.png */; };
-		63881AD71C1056CA00E006B1 /* hungrybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881AD31C1056CA00E006B1 /* hungrybutton.png */; };
-		63881AD81C1056CA00E006B1 /* pumpedbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881AD41C1056CA00E006B1 /* pumpedbutton.png */; };
-		63881AD91C1056CA00E006B1 /* romantic button.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881AD51C1056CA00E006B1 /* romantic button.png */; };
-		63881ADB1C106D9700E006B1 /* loggafeelio.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881ADA1C106D9700E006B1 /* loggafeelio.png */; };
 		63881ADF1C1072D300E006B1 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63881ADE1C1072D300E006B1 /* secondViewController.swift */; };
-		63881AE31C10750F00E006B1 /* testimagefeelio.png in Resources */ = {isa = PBXBuildFile; fileRef = 63881AE21C10750F00E006B1 /* testimagefeelio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63617DA01C15BD3600D32D56 /* loggafeelioo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loggafeelioo.png; sourceTree = "<group>"; };
+		63617DA21C15BD5F00D32D56 /* happytext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happytext.png; sourceTree = "<group>"; };
+		63617DA31C15BD5F00D32D56 /* peacefultext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peacefultext.png; sourceTree = "<group>"; };
+		63617DA41C15BD5F00D32D56 /* pumpedtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpedtext.png; sourceTree = "<group>"; };
+		63617DA51C15BD5F00D32D56 /* ragetext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ragetext.png; sourceTree = "<group>"; };
+		63617DA61C15BD5F00D32D56 /* romantictext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = romantictext.png; sourceTree = "<group>"; };
+		63617DAD1C15CDA900D32D56 /* feeliologgamedslogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feeliologgamedslogan.png; sourceTree = "<group>"; };
 		63881ABD1C104FBD00E006B1 /* feelio100001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feelio100001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63881AC01C104FBD00E006B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63881AC21C104FBD00E006B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,13 +37,7 @@
 		63881AC71C104FBD00E006B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63881ACA1C104FBD00E006B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63881ACC1C104FBD00E006B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63881AD21C1056CA00E006B1 /* happybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happybutton.png; sourceTree = "<group>"; };
-		63881AD31C1056CA00E006B1 /* hungrybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hungrybutton.png; sourceTree = "<group>"; };
-		63881AD41C1056CA00E006B1 /* pumpedbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpedbutton.png; sourceTree = "<group>"; };
-		63881AD51C1056CA00E006B1 /* romantic button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "romantic button.png"; sourceTree = "<group>"; };
-		63881ADA1C106D9700E006B1 /* loggafeelio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loggafeelio.png; sourceTree = "<group>"; };
 		63881ADE1C1072D300E006B1 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
-		63881AE21C10750F00E006B1 /* testimagefeelio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimagefeelio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63617DAC1C15BD7100D32D56 /* Bilder */ = {
+			isa = PBXGroup;
+			children = (
+				63617DA01C15BD3600D32D56 /* loggafeelioo.png */,
+				63617DA21C15BD5F00D32D56 /* happytext.png */,
+				63617DAD1C15CDA900D32D56 /* feeliologgamedslogan.png */,
+				63617DA31C15BD5F00D32D56 /* peacefultext.png */,
+				63617DA41C15BD5F00D32D56 /* pumpedtext.png */,
+				63617DA51C15BD5F00D32D56 /* ragetext.png */,
+				63617DA61C15BD5F00D32D56 /* romantictext.png */,
+			);
+			name = Bilder;
+			sourceTree = "<group>";
+		};
 		63881AB41C104FBD00E006B1 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +89,9 @@
 				63881AC21C104FBD00E006B1 /* ViewController.swift */,
 				63881AC41C104FBD00E006B1 /* Main.storyboard */,
 				63881AC71C104FBD00E006B1 /* Assets.xcassets */,
+				63617DAC1C15BD7100D32D56 /* Bilder */,
 				63881AC91C104FBD00E006B1 /* LaunchScreen.storyboard */,
-				63881AE21C10750F00E006B1 /* testimagefeelio.png */,
 				63881ACC1C104FBD00E006B1 /* Info.plist */,
-				63881AD21C1056CA00E006B1 /* happybutton.png */,
-				63881AD31C1056CA00E006B1 /* hungrybutton.png */,
-				63881ADA1C106D9700E006B1 /* loggafeelio.png */,
-				63881AD41C1056CA00E006B1 /* pumpedbutton.png */,
-				63881AD51C1056CA00E006B1 /* romantic button.png */,
 			);
 			path = feelio100001;
 			sourceTree = "<group>";
@@ -143,15 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63881ADB1C106D9700E006B1 /* loggafeelio.png in Resources */,
-				63881AD61C1056CA00E006B1 /* happybutton.png in Resources */,
+				63617DA11C15BD3600D32D56 /* loggafeelioo.png in Resources */,
 				63881ACB1C104FBD00E006B1 /* LaunchScreen.storyboard in Resources */,
-				63881AE31C10750F00E006B1 /* testimagefeelio.png in Resources */,
-				63881AD91C1056CA00E006B1 /* romantic button.png in Resources */,
-				63881AD71C1056CA00E006B1 /* hungrybutton.png in Resources */,
+				63617DA71C15BD5F00D32D56 /* happytext.png in Resources */,
+				63617DAA1C15BD5F00D32D56 /* ragetext.png in Resources */,
 				63881AC81C104FBD00E006B1 /* Assets.xcassets in Resources */,
-				63881AD81C1056CA00E006B1 /* pumpedbutton.png in Resources */,
+				63617DAE1C15CDA900D32D56 /* feeliologgamedslogan.png in Resources */,
 				63881AC61C104FBD00E006B1 /* Main.storyboard in Resources */,
+				63617DA91C15BD5F00D32D56 /* pumpedtext.png in Resources */,
+				63617DA81C15BD5F00D32D56 /* peacefultext.png in Resources */,
+				63617DAB1C15BD5F00D32D56 /* romantictext.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				63881AD11C104FBD00E006B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
