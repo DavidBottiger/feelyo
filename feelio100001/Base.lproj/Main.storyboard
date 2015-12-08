@@ -96,6 +96,20 @@
                                     <action selector="backButton:" destination="cyZ-g3-NQV" eventType="touchUpInside" id="C1f-Yw-ZPY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1b-0W-CgZ">
+                                <rect key="frame" x="136" y="510" width="45" height="30"/>
+                                <state key="normal" title="Dislike"/>
+                                <connections>
+                                    <action selector="likeButton:" destination="cyZ-g3-NQV" eventType="touchUpInside" id="mzq-X7-Z5y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsW-hb-Fxt">
+                                <rect key="frame" x="136" y="541" width="30" height="30"/>
+                                <state key="normal" title="Like"/>
+                                <connections>
+                                    <action selector="dislikeButton:" destination="cyZ-g3-NQV" eventType="touchUpInside" id="p9j-l8-KgP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
